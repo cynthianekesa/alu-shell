@@ -17,4 +17,5 @@ egrep -c "bin" /etc/passwd  Display the number of lines that contain the pattern
 egrep  -A 3 "root"  /etc/passwd  Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd
 egrep  -v  "bin"  /etc/passwd  Display all the lines in the file /etc/passwd that do not contain the pattern “bin"                                     egrep ^[[:alpha:]]  /etc/ssh/sshd_config  Display all lines of the file /etc/ssh/sshd_config starting with a letter
 tr 'Ac' 'Ze'  Replace all characters A and c from input to Z and e respectively
-tr -d cC  Create a script that removes all letters c and C from input.                                                                            
+tr -d cC  Create a script that removes all letters c and C from input
+rev Write a script that reverse its input                                                                            
