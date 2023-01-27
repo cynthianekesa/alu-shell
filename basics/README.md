@@ -6,3 +6,4 @@ ls -la 'Display current directory contents, including hidden files (starting wit
 ls -lan 'Display digits only in a long format'
 mkdir /tmp/my_first_directory 'Create a directory inside a tmp directory'
 mv /tmp/betty /tmp/my_first_directory 'move a file inside a directory'
+rm /tmp/my_first_directory/betty 'remove a file inside a directory'
