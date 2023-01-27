@@ -13,7 +13,14 @@ find . -type d ! -path . | wc -l  script that counts the number of directories a
 ls -t . | head  script that displays the 10 newest files in the current directory
 sort | uniq -u  script that takes a list of words as input and prints only words that appear exactly once
 egrep "root" /etc/passwd  Display lines containing the pattern “root” from the file /etc/passwd
-egrep -C "bin" /etc/passwd  Display the number of lines that contain the pattern “bin” in the file /etc/passwd                                                                                                                          
+egrep -c "bin" /etc/passwd  Display the number of lines that contain the pattern “bin” in the file /etc/passwd
+egrep  -A 3 "root"  /etc/passwd  Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd
+
+
+
+                                                                                                                      
+
+                                                                                                                          
 
                                                                                                                                   
 
