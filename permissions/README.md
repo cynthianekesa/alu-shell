@@ -11,4 +11,6 @@ chmod 753 hello 'script that sets the mode of the file hello to -rwxr-x-wx'
 chmod --reference=olleh hello 'script that sets the mode of the file hello the same as olleh’s mode'
 chmod -R +111 */ 'script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed'
 mkdir -m 751 my_dir 'script that creates a directory called my_dir with permissions 751 in the working directory'
-chgrp school hello 'script that changes the group owner to school for the file hello'                                                                                                                                                                                                           
+chgrp school hello 'script that changes the group owner to school for the file hello' 
+chown vincent:staff * 'script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory'                                                                                                                             
+                                                                                                                                    
