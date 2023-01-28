@@ -1,3 +1,5 @@
-Shell Basics
-Shell Permissions
-Shell Redirections and Filters
+Shell Basics,
+
+Shell Permissions,
+
+Shell Redirections and Filters.
