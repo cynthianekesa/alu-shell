@@ -1,1 +1,3 @@
-Shell Basics,17 tasks
+Shell Basics
+Shell Permissions
+Shell Redirections and Filters
