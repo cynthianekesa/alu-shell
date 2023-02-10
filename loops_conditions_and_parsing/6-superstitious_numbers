@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+#change the output of 4th, 9th and 17 iteration
+
+((n=1))
+while [ $n -le 20 ]; do
+
+case $n in
+        4)
+        echo "$n"
+        echo "bad luck from China"
+        ;;
+        9)
+        echo "$n"
+        echo "bad luck from Japan"
+        ;;
+        17)
+        echo "$n"
+        echo "bad luck from Italy"
+        ;;
+
+        
+        *)
+
+        echo "$n"
+esac
+        ((n++))
+done
