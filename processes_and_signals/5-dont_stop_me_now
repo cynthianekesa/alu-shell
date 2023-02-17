@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#stops 4-to_infinity_and_beyond process
+#find process ID of 4-to_infinity_and_beyond
+id=$(pgrep "bash ./4-to_infinity_and_beyond" -f)
+
+#kill the 4-to_infinity_and_beyond process
+if [ -n "$id" ]
+then
+	kill -15 "$id"
+fi
